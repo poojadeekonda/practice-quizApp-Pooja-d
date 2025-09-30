@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Quiz App</title>
+    <link rel="stylesheet" href="Quiz.css">
+</head>
+<body>
+<div class="quiz-container">
+    <h1>JavaScript and the DOM Quiz</h1>
+    <p id="question-text">Question will appear here...</p>
+
+    <div class="answer-buttons">
+        <button class="answer-btn" data-index="0"></button>
+        <button class="answer-btn" data-index="1"></button>
+        <button class="answer-btn" data-index="2"></button>
+        <button class="answer-btn" data-index="3"></button>
+    </div>
+
+    <div id="feedback"></div>
+
+    <button id="next-btn" disabled>Next Question</button>
+</div>
+
+<script src="Quiz.js"></script>
+</body>
+</html>
